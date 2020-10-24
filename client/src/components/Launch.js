@@ -45,8 +45,6 @@ const Launch = (props) => {
       rocket_type}
   } = data.launch;
 
-  console.log(data.launch)
-
   return (
     <div>
       <h1 className="display-5 my-3">Mission: {mission_name}</h1>
